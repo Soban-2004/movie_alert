@@ -15,7 +15,7 @@ TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
 TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")  # Twilio number
 MY_PHONE_NUMBER = os.getenv("MY_PHONE_NUMBER")          # Your phone number
 
-MOVIE_URL = "https://in.bookmyshow.com/movies/chennai/ikkis/ET00388415"
+MOVIE_URL = "https://in.bookmyshow.com/movies/chennai/jana-nayagan/ET00430817"
 CHECK_INTERVAL = 30  # seconds between checks
 
 # =========================
@@ -64,3 +64,4 @@ while True:
         print("⚠️ Error:", e)
 
     time.sleep(CHECK_INTERVAL)
+
